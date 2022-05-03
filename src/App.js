@@ -4,6 +4,7 @@ import jsimages from 'https://code.iconify.design/2/2.2.1/iconify.min.js';
 import Header from './containers/Header/Header.js';
 import Footer from './containers/Footer/Footer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import Suggestion from './containers/Suggestion/Suggestion';
 
 
 function App() {
@@ -30,11 +31,8 @@ function App() {
             </div>
         
         </div>
-        <div className="buttons">
-            <div className="yes">Sí, estoy trabajando </div>
-            <div className="no">Actualmente no</div>
-        </div>
-       
+  
+      <Suggestion/>
       <Footer/>
       </BrowserRouter>
     </div>
