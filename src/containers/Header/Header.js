@@ -9,11 +9,11 @@ const Header = () => {
         <div className="header">
           
         <span className="backIcon">
-            <span className="iconify " style={{fontsize:"40px"}} data-icon="eva:arrow-ios-back-fill"></span>
+            <span className="iconify" style={{fontSize:'30px'}} data-icon="eva:arrow-ios-back-fill"></span>
         </span> 
 
         <span className="imageIcon">
-            <span className="iconify" style={{fontsize:40}}  data-icon="bx:image-add"></span>
+            <span className="iconify" style={{fontSize:'30px'}}  data-icon="bx:image-add"></span>
         </span>
    
         </div>
