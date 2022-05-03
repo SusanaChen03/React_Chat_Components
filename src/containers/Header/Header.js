@@ -3,19 +3,24 @@ import "./Header.css"
 const Header = () => {
 
 
-    
+
     return(
-        <header>
+        <div className="containerheader">
+        <div className="header">
           
-        <span class="backIcon">
-            <span class="iconify " style="font-size: 26px;" data-icon="eva:arrow-ios-back-fill"></span>
+        <span className="backIcon">
+            <span className="iconify " style={{fontsize:"40px"}} data-icon="eva:arrow-ios-back-fill"></span>
         </span> 
 
-        <span class="imageIcon">
-            <span class="iconify" style="font-size: 26px;" data-icon="bx:image-add"></span>
+        <span className="imageIcon">
+            <span className="iconify" style={{fontsize:40}}  data-icon="bx:image-add"></span>
         </span>
    
-        </header>
+        </div>
+         <div className="bigAvatar"></div>
+         <div className="line"></div>
+         <div className="hour">Today 9:41 AM</div>
+         </div>
     )
 };
 
