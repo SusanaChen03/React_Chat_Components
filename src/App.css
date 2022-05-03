@@ -3,10 +3,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 500;
 }
-*{
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: 500;
-}
 
 body{
   display: flex;
@@ -122,48 +118,4 @@ body{
   margin-top: 24px;
   margin-left: 3px;
   font-size: 14px;
-   
-}
-
-.footer{
-  background-color: #e0e2f5;
-  width: 100%;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.plus{
-  padding-left: 14px;
-  color: #A5B6F5;
-}
-
-.micro{
-  padding-right: 14px;
-  color: #A5B6F5;
-}
-.buttons{
-  margin-top: 10px;
-  display: flex;
-  justify-content: flex-end;
-  margin-bottom: 10px;
-  height: 25px;
-  
-}
-
-.yes, .no{
-  border: 1px solid #A5B6F5;
-  margin-right: 10px;
-  border-radius: 20px;
-  padding: 0.5%;
-  box-shadow: 0 2px #e5e5e5;
-  font-size: 14px;
-  padding: 3px;
-}
-.text{
-  width: 280px;
-  height: 30px;
-  border: #A5B6F5;
-  border-radius: 20px;
 }
