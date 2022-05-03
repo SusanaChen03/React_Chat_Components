@@ -1,0 +1,17 @@
+.header{
+    height: 8%;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.backIcon{
+    padding-left: 18px;  
+    color: #A5B6F5;
+}
+
+.imageIcon{
+    padding-right: 25px;
+    color: #A5B6F5;
+}
