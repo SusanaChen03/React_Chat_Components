@@ -12,10 +12,10 @@ function App() {
   return (
     <div className="contentAll">
       <BrowserRouter>
-        <Header/>
-        <Conversation/>
-        <Suggestion/>
-        <Footer/>
+          <Header/>
+          <Conversation/>
+          <Suggestion/>
+          <Footer/>
       </BrowserRouter>
     </div>
   );
