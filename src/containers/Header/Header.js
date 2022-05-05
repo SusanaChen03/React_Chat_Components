@@ -1,4 +1,5 @@
 import "./Header.css"
+import adminLogo from '../../images/Logo center.png'
 
 const Header = () => {
 
@@ -17,7 +18,9 @@ const Header = () => {
         </span>
    
         </div>
-         <div className="bigAvatar"></div>
+         <div className="bigAvatar">
+             <img src={adminLogo}/>
+         </div>
          <div className="line"></div>
          <div className="hour">Today 9:41 AM</div>
          </div>
