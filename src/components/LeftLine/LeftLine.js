@@ -1,9 +1,8 @@
 import './LeftLine.css';
+import adminPhoto from '../../images/Logo recruiter.png'
 
-const LeftLine = () =>{
-
-    let adminPhoto = "../../images/Logo center.png"
-
+const LeftLine = (showQuestion) =>{
+    console.log(showQuestion);
     
     return (
         <div>
@@ -11,10 +10,8 @@ const LeftLine = () =>{
                 <div className="avatar">
                     <img src={adminPhoto}/>
                 </div>
-                {/* <div className="triangle"></div>
-                <div className="bubble1">
-                    <p>{showQuestion}</p>
-                </div> */}
+                <div className="triangle"></div>
+                <div className="bubble1">{showQuestion.line.text}</div>
             </div>
         </div>
     )

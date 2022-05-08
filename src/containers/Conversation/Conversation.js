@@ -1,17 +1,40 @@
 import "./Conversation.css";
 import { useState, useEffect } from "react";
 import LeftLine from "../../components/LeftLine/LeftLine";
+import RightLine from "../../components/RightLine/RightLine";
 
 const Conversation = () => {
 
-    const [line, setLine] = useState([]);
+    const [lines, setLines] = useState([]);
     
    
     const showQuestion = () => {
 
-        let question = ["¿que estas trabajando actualmente"];
+       
+        let questions = [{
+            text: "¿que estas trabajando actualmente",
+            position: "left"
+        },
+        {
+            text: "Actualmente no",
+            position: "right"
+        },
+        {
+            text: "¿Qué tecnologías dominas?",
+            position: "left"
+        },
+        {
+            text: "Java Script, php, ...",
+            position: "right"
+        },
+        {
+            text: "¿Cuando puedes empezar a trabajar?",
+            position: "left"
+        }
+            
+    ]
 
-        setLine(question);
+        setLines(questions);
     };
     
   
@@ -20,8 +43,13 @@ const Conversation = () => {
     return(
 
         <div className="conversation">
-            {line.map((showQuestion)=>{
-                return <LeftLine line={showQuestion}/>
+            {lines.map((question)=>{
+                if(question.position === "left"){
+                    return <LeftLine line={question}/>
+                }else {
+                    return <RightLine line={question}/>
+                }
+                
             })}
         </div>
           

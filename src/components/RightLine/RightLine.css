@@ -1,19 +1,14 @@
-.admin{
-    display: flex;
-    float: left;
+.user{
+    display:flex;
+    float: right;
+    padding-right: 25px;
 }
 
-.avatar{
-    width: 35px;
-    height: 35px;
-    margin-left: 25px;
-    margin-top: 24px;
-}
 
-.triangle{
+.triangle2{
     width: 0; 
     height: 0; 
-    border-right: 10px solid #A5B6F5;
+    border-left: 10px solid #A5B6F5;
     border-top: 5px solid transparent;
     border-bottom: 5px solid transparent; 
     margin-top: 35px;
@@ -21,7 +16,7 @@
     border-radius: 2px;
 }
 
-.bubble1{
+.bubble2{
     border: 1px solid #A5B6F5;
     padding-left: 10px;
     padding-right: 10px;
@@ -32,4 +27,12 @@
     margin-top: 24px;
     margin-left: 3px;
     font-size: 14px;
+}
+
+.avatarUser{
+    width: 35px;
+    height: 35px;
+  
+    margin-left: 2px;
+    margin-top: 24px;
 }
