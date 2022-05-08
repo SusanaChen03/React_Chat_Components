@@ -2,7 +2,7 @@ import './RightLine.css';
 import userPhoto from '../../images/Logo user.png'
 
 const LeftLine = (showQuestion) =>{
-    console.log(showQuestion);
+ 
     
     return (
 
