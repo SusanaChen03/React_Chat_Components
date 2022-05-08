@@ -1,3 +1,7 @@
+.containerheader{
+    height: 130px;
+}
+
 .header{
     height: 50px;
     margin: 5px;
@@ -6,17 +10,9 @@
     justify-content: space-between;
 }
 
-.containerheader{
-    height: 130px;
-}
-
 .backIcon{
     padding-left: 18px;  
     color: #A5B6F5;
-}
-
-.backIcon span{
-    font-size: 26px;
 }
 
 .imageIcon{
