@@ -1,0 +1,19 @@
+.carrusel{
+    height: 96px;
+    margin-bottom: 10px;
+}
+ 
+.gallery-cell {
+    margin-right: 10px;
+}
+
+.JS{
+    border:1px solid #A5B6F5;
+    background-color: #F7F7FB ;
+    width: 180px;
+    height: 90px;
+    border-radius: 20px;
+    margin-left: 10px;
+    display: flex;
+    transform: none !important;
+}

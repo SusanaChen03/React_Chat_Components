@@ -1,0 +1,84 @@
+.description{
+    width:125px;
+}
+
+.name{
+    font-size: 14px;
+    margin-left: 5px;
+    margin-bottom: 0;
+}
+
+.hash{
+    font-size: 10px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.uncheck{
+ color:black;
+ margin-left: 30px;
+}
+
+.check{
+    color: #699bf7;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.PhpLogo{
+    background: url(../../images/tecnologiesLogo/php.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.JavaLogo{
+    background: url(../../images/tecnologiesLogo/java.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.CLogo{
+    background: url(../../images/tecnologiesLogo/Csharp.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.PythonLogo{
+    background: url(../../images/tecnologiesLogo/python.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.elemtLogo{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 125px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
+.flickity-slider{
+    display:flex !important;
+}
