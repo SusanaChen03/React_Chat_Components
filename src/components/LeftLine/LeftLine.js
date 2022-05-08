@@ -2,7 +2,7 @@ import './LeftLine.css';
 import adminPhoto from '../../images/Logo recruiter.png'
 
 const LeftLine = (showQuestion) =>{
-    console.log(showQuestion);
+  
     
     return (
         <div>
