@@ -31,6 +31,11 @@ const Carousel = () => {
         name: "C#",
         hash: "#Csharp",
       },
+      {
+        class: "JSLogo",
+        name: "Java Script",
+        hash: "#Javascript",
+      }
     ];
 
     setDetails(cardInfo);

@@ -69,6 +69,17 @@
     margin-left:10px;
 }
 
+.JSLogo{
+    background: url(../../images/tecnologiesLogo/icon\ JS.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-left:10px;
+}
+
 .elemtLogo{
     background-size: cover;
     background-repeat: no-repeat;

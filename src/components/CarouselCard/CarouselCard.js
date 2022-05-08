@@ -13,9 +13,9 @@ const CarouselCard = (card) => {
     e.preventDefault();
     if (state == false) {
       console.log(card.cardInfo.name);
-      let imputTest = document.getElementById("texts").value;
-      imputTest = imputTest + card.cardInfo.name + " ,";
-      document.getElementById("texts").value = imputTest;
+      let inputTest = document.getElementById("texts").value;
+      inputTest = inputTest + card.cardInfo.name + " ,";
+      document.getElementById("texts").value = inputTest;
       var element = document.getElementById(card.cardInfo.name);
       element.classList.remove("uncheck");
       element.classList.add("check");
