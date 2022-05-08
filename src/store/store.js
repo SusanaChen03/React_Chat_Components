@@ -12,15 +12,15 @@ const initialState = {
       position: "right",
     },
     {
-      text: "¿Qué tecnologías dominas?",
+      text: "¿Cuando puedes empezar a trabajar?",
       position: "left",
     },
     {
-      text: "Java Script, php, ...",
+      text: "Tengo disponibilidad inmediata",
       position: "right",
     },
     {
-      text: "¿Cuando puedes empezar a trabajar?",
+      text: "¿Qué tecnologías dominas?",
       position: "left",
     },
   ],
