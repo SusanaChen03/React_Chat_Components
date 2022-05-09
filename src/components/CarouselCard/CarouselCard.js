@@ -2,7 +2,6 @@ import "./CarouselCard.css";
 import { useState, useEffect } from "react";
 
 const CarouselCard = (card) => {
-
   const [state, setState] = useState([]);
 
   useEffect(() => {
@@ -12,16 +11,16 @@ const CarouselCard = (card) => {
   function handleClick(e) {
     e.preventDefault();
     if (state == false) {
-      console.log(card.cardInfo.name);
-      let inputTest = document.getElementById("texts").value;
-      inputTest = inputTest + card.cardInfo.name + " ,";
-      document.getElementById("texts").value = inputTest;
-      var element = document.getElementById(card.cardInfo.name);
+      let inputText = document.getElementById("texts").value;
+      let addText = inputText + card.cardInfo.name + " ,";
+      document.getElementById("texts").value = addText;
+      let element = document.getElementById(card.cardInfo.name);
       element.classList.remove("uncheck");
       element.classList.add("check");
       setState(true);
-    };
-  };
+    }
+
+  }
 
   return (
     <div class="JS">

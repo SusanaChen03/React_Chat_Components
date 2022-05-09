@@ -17,7 +17,7 @@ const Suggestion = () => {
   };
   return (
     <div className="buttons">
-      <div className="yes" onClick={handleClickYes}>Sí, estoy trabajando{" "} </div>
+      <div className="yes" onClick={handleClickYes}>Sí, estoy trabajando</div>
         
       <div className="no" onClick={handleClickNo}> Actualmente no  </div>
     </div>
